@@ -10,5 +10,5 @@ if 'name' in resp.text:
     users = re.findall('"name":"(.*?)",', resp.text)
     for user in users:
         print(user)
-    else:
-        print("can't find usernames sir:'/")
+else:
+    print("can't find usernames sir:'/")
